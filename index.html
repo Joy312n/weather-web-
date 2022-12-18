@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Weather City</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+  <header>
+    <nav class="navbar">
+      <table width="100%" id="tab1">
+        <tr>
+          <td colspan="2">
+            <div class="logoname">
+
+              <h2>MY WEATHER CITY</h2>
+
+            </div>
+          </td>
+
+          <form action="" role="search">
+
+
+            <td colspan="2">
+              <input type="search" id="city" placeholder="City Name">
+            </td>
+            <td>
+              <button type="submit" class="clik" id="submit">search</button>
+            </td>
+          </form>
+        </tr>
+      </table>
+
+    </nav>
+  </header>
+
+  <div class="b1">
+    <div>
+      <h1>Weather Of <span id="cityName"> WEATHER</span>
+      </h1>
+    </div>
+    <ul>
+      <div class="temp">
+      
+        <div class="c1">
+
+
+          <li class="wetht" id="temp1"><span id="temp"> </span><span id="cf"><span>&#176;</span><span id="cd"
+              class="clik">C</span>/<span class="clik" id="fd">F</span></span></li>
+       
+          <div class="cc1">
+
+            <li class="wetht" id="temp2">max <span id="max_temp"> </span> </li>
+
+
+            <li class="wetht" id="temp3">min <span id="min_temp"> </span></li>
+
+
+            <li class="wetht" id="temp4">feels like <span id="feels_like"> </span></li>
+          </div>
+        </div>
+        <div class="c2">
+
+          <li class="weths" id="wes">winddegrees <span id="wind_degrees"> </span></li>
+          <li class="weths" id="wes2">windspeed <span id="wind_speed"> </span></li>
+        </div>
+      
+        </div>
+        <li class="weth" id="humi">humidity <span id="humidity"> </span></li>
+      <!-- <li class="weth extra" >cloudpct <span id="cloud_pct"> </span></li>
+
+      <li class="weth extra">sunrise <span id="sunrise"></span></li>
+      <li class="weth extra">sunset <span id="sunset"></span></li> -->
+    </ul>
+  </div>
+
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
