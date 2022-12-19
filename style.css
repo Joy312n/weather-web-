@@ -206,7 +206,7 @@ span#cf {
 }
 
 
-@media screen and (max-width:400px) and (max-height:700px) {
+@media screen and (max-width:1080px) and (max-height:1920px) {
     h2 {
         display: inline-block;
         text-align: center;
